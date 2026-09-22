@@ -1,0 +1,61 @@
+/* Redstone Family Lawyers: brand tokens (colours, fonts, spacing)
+   Load the fonts once in <head>:
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+*/
+
+:root {
+  /* ---------- Colours (from the logo and design mockups) ---------- */
+  --color-burgundy: #7A1E23;       /* buttons, links, accents (the logo files carry their own deeper burgundy) */
+  --color-burgundy-dark: #5B1112;  /* hover/pressed, deep feature sections */
+  --color-charcoal: #2F2F33;       /* text, dark sections */
+  --color-stone: #E8E1DA;          /* borders, dividers, soft section fills */
+  --color-cream: #FAF8F5;          /* page background */
+  --color-white: #FFFFFF;          /* cards, text on dark */
+
+  --color-bg: var(--color-cream);
+  --color-surface: var(--color-white);
+  --color-text: var(--color-charcoal);
+  --color-text-muted: #5E5E63;     /* secondary text; passes WCAG AA on cream and white */
+  --color-primary: var(--color-burgundy);
+  --color-primary-hover: var(--color-burgundy-dark);
+  --color-border: var(--color-stone);
+  --color-on-dark: var(--color-white); /* text on burgundy or charcoal */
+
+  /* ---------- Fonts ---------- */
+  --font-heading: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-body: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+
+  --weight-regular: 400;   /* body */
+  --weight-medium: 500;    /* headings */
+  --weight-semibold: 600;  /* buttons, eyebrows, emphasis */
+
+  --text-h1: clamp(2.5rem, 1.9rem + 2.6vw, 4rem);      /* 40 → 64px */
+  --text-h2: clamp(2rem, 1.6rem + 1.7vw, 3rem);        /* 32 → 48px */
+  --text-h3: clamp(1.5rem, 1.35rem + 0.65vw, 2rem);    /* 24 → 32px */
+  --text-h4: 1.25rem;                                   /* 20px */
+  --text-body: 1.0625rem;                               /* 17px */
+  --text-small: 0.875rem;                               /* 14px */
+  --text-eyebrow: 0.8125rem;                            /* 13px, uppercase */
+
+  --leading-heading: 1.15;
+  --leading-body: 1.65;
+  --tracking-eyebrow: 0.2em;  /* uppercase labels, echoes the logo tagline */
+
+  /* ---------- Spacing ---------- */
+  --space-1: 0.25rem;  /*   4px */
+  --space-2: 0.5rem;   /*   8px */
+  --space-3: 0.75rem;  /*  12px */
+  --space-4: 1rem;     /*  16px */
+  --space-5: 1.5rem;   /*  24px */
+  --space-6: 2rem;     /*  32px */
+  --space-7: 3rem;     /*  48px */
+  --space-8: 4rem;     /*  64px */
+  --space-9: 6rem;     /*  96px */
+  --space-10: 8rem;    /* 128px */
+
+  --section-padding: clamp(4rem, 3rem + 4vw, 7.5rem);  /* vertical space per section, 64 → 120px */
+  --container-max: 1200px;
+  --container-gutter: clamp(1rem, 0.5rem + 2.5vw, 2rem); /* side padding, 16 → 32px */
+}
