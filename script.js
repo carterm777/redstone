@@ -1,5 +1,5 @@
 /* ============================================================================
-   REDSTONE FAMILY LAWYERS — Master homepage (built on "Contemporary Counsel")
+   REDSTONE FAMILY LAW — Master homepage (built on "Contemporary Counsel")
    Vanilla JS only. Every effect is transform/opacity/filter driven, every
    effect has a reduced-motion path, and nothing here gates page content:
    all copy is in the HTML at load and JS only changes how it arrives.

@@ -1,4 +1,4 @@
-# Redstone Family Lawyers — homepage demo
+# Redstone Family Law — homepage demo
 
 Static site (HTML/CSS/JS, no build step). Deployed on Vercel from `main`.
 
